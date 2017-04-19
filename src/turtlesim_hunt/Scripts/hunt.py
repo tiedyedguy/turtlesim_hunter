@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 import rospy
 from turtlesim.msg import *
 from turtlesim.srv import *
