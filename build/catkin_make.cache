@@ -1,0 +1,2 @@
+turtlesim_hunt
+-DCATKIN_DEVEL_PREFIX=/home/richie/turtlesim_hunter/devel -DCMAKE_INSTALL_PREFIX=/home/richie/turtlesim_hunter/install -G Unix Makefiles
