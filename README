@@ -1,2 +1,18 @@
 This is my ROS Turtlesim Hunter Script.
 
+While learning ROS, I saw the Turtlesim node and it reminded me of LOGOS and got me excited. So I figured I would try something with it.
+
+I figured, why not make a script that makes the turtle chase other turtles. So here we go.
+
+In the ./Scripts/hunt.py file is everything you need.  At the top are things to change, for instance, there are three methods to hunting, change the method variable to try the different ones.
+
+To install: 
+Clone this into a catkin workspace
+Do all these commands from that catkin workspace
+run "catkin_make"
+run "roscore"
+Open a new Terminal Window
+run "rosrun turtlesim turtlesim_node"
+Open a new Terminal Window
+run "rosrun turtlesim_hunt hunt.py"
+
