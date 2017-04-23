@@ -11,8 +11,8 @@ from math import atan2,pi, sqrt, pow
 import sys
 
 #Variables to change
-huntMethod = 1 #Which method to use, [0 .. 2] inclusive
-targetHuntedTurtles = 2000 #How many turtles to hunt until the script ends
+huntMethod = 2 #Which method to use, [0 .. 2] inclusive
+targetHuntedTurtles = 1000 #How many turtles to hunt until the script ends
 tolerance = 1 #The distance until we say the hunter finds the hunted.
 
 
